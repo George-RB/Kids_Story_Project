@@ -5,8 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Kindergarden</title>
+    <link rel="shortcut icon" href="./img/phone.png" type="image/x-icon">
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div class="w-9/12 my-0 mx-auto">
+      <div class="wrapper">
+        <header>
+          <div class="flex justify-end mt-2">
+            <p class="text-red-500 text-sm pr-10">
+              Москва, ул. Муравская д.38, к.1
+            </p>
+            <div class="flex justify-end">
+              <p class="text-red-500 text-sm pr-1">ЖК Мир Митино</p>
+              <p class="text-blue-400 text-sm">М. Пятницкое шоссе</p>
+            </div>
+          </div>
+          <!-- Вторая часть header -->
+          <div class="flex justify-between items-center mt-5">
+            <div class="">
+              <img src="./img/logo.png" alt="logo" />
+            </div>
+            <div class="">
+              <ul class="flex font-semibold">
+                <li href="#" class="mr-5 hover:text-red-400 cursor-pointer">
+                  О нас
+                </li>
+                <li href="#" class="mr-5 hover:text-red-400 cursor-pointer">
+                  Расписание
+                </li>
+                <li href="#" class="mr-5 hover:text-red-400 cursor-pointer">
+                  Программа
+                </li>
+                <li href="#" class="mr-5 hover:text-red-400 cursor-pointer">
+                  Фото и видео
+                </li>
+                <li href="#" class="mr-5 hover:text-red-400 cursor-pointer">
+                  Команда
+                </li>
+                <li href="#" class="hover:text-red-400 cursor-pointer">
+                  Контакты
+                </li>
+              </ul>
+            </div>
+            <div class="flex justify-between">
+                <div class="">
+                  <div class="flex mr-10">
+
+                    <img src="./img/phone.png" alt="phone" class="max-w-full max-h-full object-contain mr-3" />
+                    <p class="text-lg font-semibold">+7 495 123 45 56</p>
+
+                  </div>
+                  <p class="text-sm text-red-500 font-semibold">Заказать обратный звонок</p>
+                </div>
+                <div class="flex items-center">
+
+                  <div class="mr-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="h-8 w-8 text-red-500 hover:text-black transition-colors cursor-pointer"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.558 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.51.513-.743.675-1.021.675-.139 0-.341-.162-.341-.627V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.65.871 2.138v3.228c0 .707-.127.836-.407.836-.743 0-2.551-2.729-3.624-5.853-.209-.607-.42-.852-.98-.852H2.752c-.627 0-.752.295-.752.619 0 .582.743 3.462 3.461 7.271 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.752.574-.752.324 0 .882.164 2.183 1.417 1.486 1.486 1.732 2.153 2.567 2.153h2.192c.626 0 .939-.313.759-.931-.197-.615-.907-1.51-1.849-2.569-.512-.604-1.277-1.254-1.51-1.579-.325-.419-.231-.604 0-.976.001.001 2.672-3.761 2.95-5.04z"
+                      ></path>
+                    </svg>
+                  </div>
+                  
+                  <div class="mr-5 hover:font-black cursor-pointer">
+                    <svg
+                      class="h-8 w-8 text-red-500 hover:text-black transition-colors"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+                    </svg>
+                  </div>
+                  
+                  <button class="bg-violet-800 opacity-70 text-white py-3 px-4 rounded-3xl font-semibold hover:bg-red-500 transition-all">Записаться на экскурсию</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
   </body>
 </html>
